@@ -1,0 +1,73 @@
+.Mobile {
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgb(222, 66, 66);
+    background: linear-gradient(90deg, rgba(222, 66, 66, 1) 0%, rgba(222, 66, 66, 1) 94%);
+    /* background-image: linear-gradient(180deg, #ffffff 0%, #FFFFFF 1%, #ffffff 100%); */
+}
+
+.News {
+    width: 100%;
+    position: relative;
+    background: hsl(0, 0%, 0%);
+}
+
+.hero-text {
+    margin: -2%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+
+}
+
+.hero-text h1 {
+    padding: -0.2rem;
+    font-size: 2.5rem;
+    font-weight: 80;
+    background: hsl(0, 0%, 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: hsl(0, 0%, 0%);
+
+}
+
+.hero-text .Show {
+
+    margin: 5%;
+    background-color: aliceblue;
+    text-decoration: none;
+    background-color: #ffff;
+    padding: 0.3rem 1.1rem;
+    border-radius: 6px;
+    font-size: 1, 1.5rem;
+    font-weight: bold;
+    color: #110202;
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .hero-text h1 {
+        font-size: 1.5rem;
+        margin: -6%;
+    }
+
+    .hero-text p {
+        margin: 0%;
+        font-size: 5px;
+        padding: 0.9rem;
+    }
+
+    .hero-text .Show {
+
+        padding: 0.5rem 0.7rem;
+        border-radius: 7px;
+        font-size: 0.9rem;
+        background: red;
+
+    }
+    .text-gray-600{
+        margin-top: 10%;
+    }
+}
